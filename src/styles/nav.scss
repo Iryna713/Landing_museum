@@ -50,7 +50,7 @@
   }
 
   &__link {
-    display: block;
+    display: flex;
     margin: 0 10px;
 
     @include mainText;
@@ -65,6 +65,11 @@
     @media (max-width: 928px) {
       line-height: 48px;
     }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
   }
 
   &__toggler {
